@@ -4,6 +4,34 @@
 
 This repository contains an analysis of Microsoft stock prices using historical financial data and machine learning techniques. The primary objective is to predict Microsoft's future stock prices (closing price) using a Random Forest model. Additionally, comparisons with a Multiple Linear Regression model are made to assess prediction performance.
 
+
+## Project Title: Enhancing Stock Price Prediction Using Machine Learning: A Comparative Analysis of Random Forest and Linear Regression Models on Microsoft's Financial Data 
+
+## Research Questions
+
+1. How do financial indicators, such as High, Low, and Volume, influence Microsoft’s closing price?
+
+2. Can machine learning models, including Random Forest and Linear Regression, predict Microsoft’s future stock price with accuracy?
+
+## Machine Learning Models (Predictive Modelling)
+1. Random Forest Model
+2. Linear Regression Model
+
+
+## Key Findings  
+-Key Finding 1: The predictors of Microsoft’s closing price which proved most influential were High and Low prices, having strong positive correlations over 0.95.
+
+-Key Finding 2: Random Forest model exhibits excellent predictive accuracy with an R² = 0.9999 and good error metrics (MAE = 0.2499, RMSE = 0.6839).
+
+-Key Finding 3: Linear Regression did relatively well, with identical R² values, but on the lower end of RMSE, that showed its inability to deal with complex interactions compared to Random Forest.
+
+-Key Finding 4: The direct correlation of Volume indicator against price movements was weak and therefore the indicator has a very weak standalone predictive power.
+
+-Key Finding 5: A paired t-test showed no statistically significant difference in prediction accuracy of Random Forest model from that of Linear Regression model (p = 0.1252).
+
+
+
+
 ## Repository Contents
 
 - **MSFT.csv**: This file contains historical stock market data for Microsoft (MSFT), including columns such as Date, Low, Open, Volume, High, Close, and Adjusted Close.
@@ -14,7 +42,6 @@ This repository contains an analysis of Microsoft stock prices using historical 
 Before running the code, ensure that you have the following R packages installed: 
 
 
-```r
 install.packages(c("tidyverse", "caret", "randomForest", "ranger", "ggplot2", "lubridate", "gridExtra", "forecast", "zoo"))
 
 tidyverse: Data manipulation and visualization.
@@ -34,7 +61,7 @@ forecast: For Time Series Analysis
 zoo: Ensure this is included for moving averages
 
 
-## Running the Code
+## Steps for Running the Code
 Follow these steps to run the code on your local machine:
 
 ## Download or Clone the Repository
@@ -49,19 +76,23 @@ git clone https://github.com/Richiealx/INF6027_Microsoft-Stock-Price-Analysis-Us
 Open RStudio or your preferred R environment.
 
 Load the script Microsoft Stock Price Analysis Using R.R by either opening it directly from your file explorer or using the following command in R:
+
 source("path/to/Microsoft Stock Price Analysis Using R.R")
 
 ### 3. Running the Analysis
 
 Make sure the dataset MSFT.csv is in the same directory as the R script.
+
 Run the entire script step by step or use source() to execute all commands in one go.
-Results
+
+
+### 4. Results
 
 The script will preprocess the data, generate visualizations, train the Random Forest model, perform hyperparameter tuning, and output performance metrics such as RMSE, R², and MAE.
 
 The final model will be evaluated using residual analysis, and the results of a paired t-test will show if the Random Forest model outperforms the Linear Regression model.
 
-### **4.Visualizations**
+### 5.Visualizations
 
 High-quality visualizations of feature importance, residuals, and model performance are generated using ggplot2.
 
@@ -81,7 +112,7 @@ Model Evaluation: Model performance is evaluated using various metrics (RMSE, R�
 
 ### License
 
-This repository is provided under the MIT License. See the LICENSE file for more information.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 
