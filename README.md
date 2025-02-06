@@ -47,6 +47,7 @@ The specific objectives were to:
 
 - **MSFT.csv**: This file contains historical stock market data for Microsoft (MSFT), including columns such as Date, Low, Open, Volume, High, Close, and Adjusted Close.
 - **Microsoft Stock Price Analysis Using R.R**: The R script that implements the data preprocessing, exploratory analysis, Random Forest model, hyperparameter tuning, and model evaluation.
+- **Visualization Outputs**: 
 
 ## Requirements
 
@@ -121,9 +122,6 @@ Hyperparameter Tuning: The model's hyperparameters are fine-tuned using grid sea
 
 Model Evaluation: Model performance is evaluated using various metrics (RMSE, R², MAE) and residual analysis.
 
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 
