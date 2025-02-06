@@ -47,7 +47,9 @@ The specific objectives were to:
 
 - **MSFT.csv**: This file contains historical stock market data for Microsoft (MSFT), including columns such as Date, Low, Open, Volume, High, Close, and Adjusted Close.
 - **Microsoft Stock Price Analysis Using R.R**: The R script that implements the data preprocessing, exploratory analysis, Random Forest model, hyperparameter tuning, and model evaluation.
-- **Visualization Outputs**: 
+- **Visualization Outputs**: Microsoft Stock Closing Price Over Time-Quality Visuals.jpeg, Correlation Heatmap of Microsoft Stock Features Quality Visuals.jpeg, Combined Feature Importance IncMSE and 
+                             IncNodePurity Quality Visuals.jpeg, Actual vs Predicted Price for Linear Regression Model.jpeg, Actual vs Predicted Price for Random Forest.jpeg.
+- **README.md**: Detailed summary of the research project and instructions on how the R code is run
 
 ## Requirements
 
