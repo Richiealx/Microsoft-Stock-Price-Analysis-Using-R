@@ -75,7 +75,7 @@ forecast: For Time Series Analysis
 zoo: Ensure this is included for moving averages
 
 
-## Steps for Running the Code
+## Instructions for Running the Code
 Follow these steps to run the code on your local machine:
 
 ## Download or Clone the Repository
