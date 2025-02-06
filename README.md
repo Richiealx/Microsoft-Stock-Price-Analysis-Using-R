@@ -6,6 +6,18 @@ This repository contains an analysis of Microsoft stock prices using historical 
 
 ## Project Title: Enhancing Stock Price Prediction Using Machine Learning: A Comparative Analysis of Random Forest and Linear Regression Models on Microsoft's Financial Data 
 
+### Research Aim
+The primary aim of this research was to explore the historical stock price data of Microsoft Corporation, uncover patterns and relationships between financial 
+
+indicators, and evaluate the effectiveness of machine learning models in predicting stock prices. 
+
+The specific objectives were to:
+
+1. Investigate the influence of financial indicators, such as High, Low, Open, and Volume on Microsoft’s closing price.
+
+2. Develop predictive models, including Random Forest and Linear Regression, to forecast accuracy of future stock price.
+
+
 ## Research Questions
 
 1. How do financial indicators, such as High, Low, and Volume, influence Microsoft’s closing price?
