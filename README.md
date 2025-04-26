@@ -1,4 +1,4 @@
-# INF6027_Microsoft-Stock-Price-Analysis-Using-R Project
+# Microsoft-Stock-Price-Analysis-Using-R Project
 
 
 This repository contains an analysis of Microsoft stock prices using historical financial data and machine learning techniques. The primary objective is to predict Microsoft's future stock prices (closing price) using a Random Forest model. Additionally, comparisons with a Multiple Linear Regression model are made to assess prediction performance.
